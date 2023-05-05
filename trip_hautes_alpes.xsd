@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+  <xs:element name="TravelData">
+    <xs:complexType>
+      <xs:sequence>
+        <xs:element name="Guide" type="xs:string"/>
+        <xs:element name="Location">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="ValleeDeLaClaree">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Description" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+              <xs:element name="VallonDesMuandes">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Description" type="xs:string"/>
+                  </xs:sequence>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+        <xs:element name="Itinerary">
+          <xs:complexType>
+            <xs:sequence>
+              <xs:element name="Route" maxOccurs="unbounded">
+                <xs:complexType>
+                  <xs:sequence>
+                    <xs:element name="Name" type="xs:string"/>
+                    <xs:element name="Description" type="xs:string"/>
+                    <xs:element name="Elevation" type="xs:string"/>
+                  </xs:sequence>
+                  <xs:attribute name="number" type="xs:string" use="required"/>
+                </xs:complexType>
+              </xs:element>
+            </xs:sequence>
+          </xs:complexType>
+        </xs:element>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

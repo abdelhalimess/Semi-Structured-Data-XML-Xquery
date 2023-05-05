@@ -1,0 +1,11 @@
+<!ELEMENT TravelData (Guide,Location,Itinerary)>
+<!ELEMENT Guide (#PCDATA)>
+<!ELEMENT Location (ValleeDeLaClaree,VallonDesMuandes)>
+<!ELEMENT ValleeDeLaClaree (Description)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT VallonDesMuandes (Description)>
+<!ELEMENT Itinerary (Route+)>
+<!ELEMENT Route (Name,Description,Elevation)>
+<!ATTLIST Route number NMTOKEN #REQUIRED>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Elevation (#PCDATA)>

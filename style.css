@@ -1,0 +1,46 @@
+body {
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Define styles for specific elements */
+  h1 {
+    font-size: 28px;
+    margin: 20px 0;
+  }
+  
+  h2 {
+    font-size: 22px;
+    margin: 15px 0;
+  }
+  
+  p {
+    margin: 10px 0;
+  }
+  
+  ul {
+    margin: 10px 0;
+    padding: 0;
+  }
+  
+  li {
+    margin: 5px 0;
+  }
+  
+  /* Define styles for classes */
+  .route-name {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+  
+  .route-description {
+    margin-top: 5px;
+  }
+  
+  .route-elevation {
+    font-style: italic;
+  }
