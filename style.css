@@ -1,46 +1,94 @@
 body {
-    font-family: Arial, sans-serif;
-    font-size: 16px;
-    color: #333;
-    line-height: 1.5;
-    margin: 0;
-    padding: 0;
-  }
-  
-  /* Define styles for specific elements */
-  h1 {
-    font-size: 28px;
-    margin: 20px 0;
-  }
-  
-  h2 {
-    font-size: 22px;
-    margin: 15px 0;
-  }
-  
-  p {
-    margin: 10px 0;
-  }
-  
-  ul {
-    margin: 10px 0;
-    padding: 0;
-  }
-  
-  li {
-    margin: 5px 0;
-  }
-  
-  /* Define styles for classes */
-  .route-name {
-    font-weight: bold;
-    text-decoration: underline;
-  }
-  
-  .route-description {
-    margin-top: 5px;
-  }
-  
-  .route-elevation {
-    font-style: italic;
-  }
+  font-family: 'Helvetica Neue', sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+h4 {
+  font-size: 1.125rem;
+}
+
+h5 {
+  font-size: 1rem;
+}
+
+h6 {
+  font-size: 0.875rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+ul {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  list-style-type: disc;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  padding: 0.75rem;
+  border: 1px solid #ccc;
+}
+
+th {
+  background-color: #f2f2f2;
+}
+
+/* Specific styles for the travel data */
+.location {
+  margin-top: 2rem;
+}
+
+.location ul {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.location b {
+  font-weight: bold;
+}
+
+.itinerary {
+  margin-top: 2rem;
+}
+
+.itinerary table {
+  margin-top: 1rem;
+  margin-bottom: 0;
+}
+
+.itinerary th {
+  text-align: left;
+}
+
+.itinerary td {
+  text-align: center;
+}
